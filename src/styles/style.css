@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+
+
+
+
+.font-styles-headers{
+    font-size: 30px;
+    font-weight: bold;
+}
+.clicked_navbar_item{
+    color: #21a2f8c5;
+}

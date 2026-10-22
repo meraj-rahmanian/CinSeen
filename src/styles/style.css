@@ -1,9 +1,3 @@
-body{
-    background: black;
-}
-
-
-
 
 .font-styles-headers{
     font-size: 30px;
@@ -11,4 +5,12 @@ body{
 }
 .clicked_navbar_item{
     color: #21a2f8c5;
+}
+.hero-hover {
+  transition: transform 0.3s ease-out;
+  transform: scale(1);
+  will-change: transform;
+}
+.hero-hover:hover {
+  transform: scale(1.05);
 }

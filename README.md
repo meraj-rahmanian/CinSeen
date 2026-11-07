@@ -1,16 +1,63 @@
-# React + Vite
+# 🎬 Cinseen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> یک پروژه‌ی نمایشی و تمرینی برای تجربه‌ی مرور فیلم و سینما، ساخته‌شده با React
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=reactrouter&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ درباره‌ی پروژه
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Cinseen** یک پروژه‌ی **صرفاً نمایشی** است. ظاهری مدرن، تمیز و سینمایی دارد و تلاش شده تجربه‌ی کاربری روان و جذابی ارائه بدهد.
 
-## Expanding the ESLint configuration
+این پروژه بیشتر یک **پروژه‌ی تمرینی** است و **دومین پروژه‌ی من** به حساب می‌آید.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 هدف از ساخت
+
+هدف اصلی من از ساخت Cinseen این بوده که **در کار با React تسلط پیدا کنم** و قدم‌به‌قدم به یک **توسعه‌دهنده‌ی حرفه‌ای** تبدیل شوم.
+
+## 🛠️ تکنولوژی‌های استفاده‌شده
+
+| تکنولوژی | کاربرد |
+| --- | --- |
+| **React** | ساخت رابط کاربری و کامپوننت‌ها |
+| **React Router** | مسیریابی بین صفحه‌ها |
+| **Tailwind CSS** | استایل‌دهی سریع و یکپارچه |
+| **JavaScript** | منطق و تعامل‌های پروژه |
+| **CSS** | استایل‌ها و انیمیشن‌های سفارشی |
+
+## 🎨 صفحه‌های طراحی‌شده
+
+- ⏳ **صفحه‌ی Loading** – نمایش حالت بارگذاری هنگام آماده‌سازی محتوا
+- 🚫 **صفحه‌ی خطای 404** – برای مسیرهای ناموجود
+- 📡 **صفحه‌ی Offline** – نمایش پیام مناسب هنگام قطع اتصال اینترنت
+
+## ⚠️ نکته‌ی مهم
+
+این پروژه **فقط برای نمایش روی کامپیوتر (PC)** ریسپانسیو شده است و برای **هیچ دستگاه دیگری** (موبایل، تبلت و ...) بهینه‌سازی نشده است. بنابراین برای بهترین تجربه، آن را روی مانیتور دسکتاپ یا لپ‌تاپ باز کنید.
+
+## 🚀 اجرای پروژه
+
+```bash
+# نصب وابستگی‌ها
+npm install
+
+# اجرای پروژه در حالت توسعه
+npm run dev
+```
+
+## 📌 خلاصه
+
+- ✅ پروژه‌ی نمایشی و تمرینی
+- ✅ دومین پروژه‌ی من
+- ✅ ساخته‌شده با React، React Router، Tailwind، JavaScript و CSS
+- ✅ دارای صفحه‌های Loading، 404 و Offline
+- ✅ ریسپانسیو فقط برای PC
+
+---
+
+<p align="center">با ❤️ و برای یادگیری ساخته شد</p>

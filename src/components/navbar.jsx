@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import '../styles/style.css';
+import { Link } from 'react-router';
 
 export default function Navbar() {
   const item_refs = useRef([]);
@@ -18,7 +19,7 @@ export default function Navbar() {
         <div className='flex-1 min-w-0 p-1 flex items-center gap-1'>
           <img src="/favicon.png" className='h-full' />
           <div className='text-white cursor-default font-styles-headers'>
-            Cin<span className='text-[#21a2f8c5]'>Box</span>
+            Cin<span className='text-[#21a2f8c5]'>Seen</span>
           </div>
         </div>
 
@@ -26,7 +27,7 @@ export default function Navbar() {
           <ul className='gap-5 flex items-center cursor-pointer justify-center text-white'>
             {nav_items.map((item, index) => (
               <li
-                className={index === whitch ? 'clicked_navbar_item  hero-hover' : ' hero-hover'}
+                className={`hero-hover ${index === whitch ? 'clicked_navbar_item' : ''}`}
                 key={item}
                 onClick={() => {
                   const el = item_refs.current[index];
@@ -36,7 +37,8 @@ export default function Navbar() {
                 }}
                 ref={(el) => { item_refs.current[index] = el; }}
               >
-                {item}
+                <Link to={`/${item}`}>{item}</Link>
+                
               </li>
             ))}
           </ul>
